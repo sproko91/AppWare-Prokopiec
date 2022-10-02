@@ -149,8 +149,6 @@ span {
   border-radius: 30px;
   box-shadow: 5px 10px 18px #888888;
   margin-top: 30px;
-  animation: flipInX; 
-  animation-duration: 2s;
 }
 
 .card{  display: flex;
@@ -305,6 +303,11 @@ footer {
 /* TERMINA INDEX 1200*/
 
 /* ARRANCA NOSOTROS 1200*/
+
+.nosotrosCard {
+  animation: flipInX; 
+  animation-duration: 2s;
+}
 
 .card{ flex-direction: row;
  }
