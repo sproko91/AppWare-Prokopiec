@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AppWare - Contacto</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- inicio NAV -->
+	<nav class="navbar-expand-lg navbar navbar-light bg-nav sticky-top">
+  		<div class="container-fluid">
+   	 		<a class="navbar-brand d-flex align-items-end" href="../index.html"> <img class= "logo" src="../img/logo.png" alt="appware, aplicacion, escuelas"></a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    		</button>
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+     		<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        		<li class="nav-item mx-4">
+         		 <a class="nav-link active" aria-current="page" href="../views/nosotros.html">Nosotros</a>
+        		</li>
+        		<li class="nav-item  mx-4">
+         		 <a class="nav-link active" href="../views/contactanos.html">Contactanos</a>
+        		</li>
+          	</ul>
+        </div>
+  </div>
+</nav>
+<main class="contacto">
+<form action="eventos.php"> 
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h1 class="h1-responsive font-weight-bold text-center">Contactanos</h1>
+    <!--Section description-->
+    <h2 class=" text-center w-responsive mx-auto">¿Tiene alguna pregunta? Por favor, no dude en contactarnos directamente. Nuestro equipo le responderá a la brevedad.</h2>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Nombre:</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Juan Carlos">
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                        	<label for="email" class="">Apellido:</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Gonzalez">
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                        	<label for="name" class="">Telefono:</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="1512345678">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Email:</label>            
+                            <input type="text" id="name" name="name" class="form-control" placeholder="ejemplo@gmail.com">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Mensaje:</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Escriba aqui su mensaje..."></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div>
+				<label for="wsp" class="tilde">¿Desea que nos contactemos via Whatsapp?</label>
+				<input type="checkbox" id="wsp">
+			</div>
+            </form>
+            <div class="botones">
+            <input class=" btn" type="reset" value="Borrar">
+			<input class=" btn" type="reset" value="Enviar">
+			</div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0 mt-4">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i><img src="../img/ubicacion.png" alt="punto, encuentro, appware, ubicacion, direccion, contacto">
+                    <p>General Ramon Freire 2646<br> Ciudad Autonoma de Buenos Aires</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i><img src="../img/phone.png" alt="contacto, telefono, appware">
+                    <p>+54 1164675151</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i><img src="../img/email.png" alt="email, contacto, appware">
+                    <p>appware@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+</form>
+</main>
+<aside>
+	<div class="whatsapp">
+        <a href="https://wa.me/541164675151/" target=_blank>
+            <img src="../img/wspIcon.png" alt="whatsapp link appware">
+		</a>
+	</div>
+</aside>
+<footer>
+	<div class="direcciones">
+		<p>Oficina Central</p>
+		<p>General Ramon Freire 2646</p>
+		<p>Telefono: +54 1164675151</p>
+		<p>Ciudad Autonoma de Buenos Aires</p>
+	</div>
+	<div class="derechos">
+		<p>Todos los derechos reservados © AppWare, 2022.</p>
+		<p>Diseño web: Sproko Studio</p>
+	</div>
+	<div class="trabajar">
+		<p>¿Queres sumarte a nuestro equipo?</p>
+		<p>Envianos tu CV 
+		<p>appware@gmail.com</p>
+	</div>
+</footer>	
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
