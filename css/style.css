@@ -90,55 +90,15 @@ span {
   text-align: center;
 }
 
-
 .foto {min-width: 200px;
        height: 140px;
        border-radius: 25%;
        box-shadow: 5px 10px 18px #888888;
-       animation: animate__slideInLeft;
-       animation-duration: 1.5s;
        margin-bottom: 20px;
 }
 
+#reverse {flex-direction: column-reverse;}
 
-.bg-img {
-  width: 70vw;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.mano {
-  margin-top: 25px;
-  width: 320px;
-  height: 220px;
-}
-.textoDescarga {
-  font-weight: 700;
-  font-size: 1.5em;
-  font-style: italic;
-  text-align: center;
-  margin: 50px auto 0 auto;
-}
-
-
-.textoDescarga p {
-  padding-bottom: 30px;
-}
-
-.descarga img {
-  border-radius: 10px;
-  width: 200px;
-  height: 70px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px ;
-  box-shadow: 5px 10px 18px #888888;
-
- }
-
- .descarga img:hover{transform: scale(1.02);
- }
 /* TERMINA INDEX 320*/
 
 /* ARRANCA NOSOTROS 320*/
@@ -268,6 +228,7 @@ footer {
   text-align: left;
 }
 
+#reverse {flex-direction: row;}
 .textoUno{
   padding-right: 40px;
 }
@@ -277,28 +238,11 @@ footer {
 }
 
 .foto {min-width: 400px;
-       height: 280px;
+      height: 280px;
+      animation: animate__slideInLeft;
+      animation-duration: 1.5s;
 }
 
-.bg-img {
-  flex-direction: row;
-}
-
-.mano {
-  width: 458px;
-  height: 533px;
-}
-
-.textoDescarga {
-  font-size: 2.5em;
-  margin: 150px auto 0 auto;
-}
-
-
-.descarga img {
-  border-radius: 20px;
-  width: 300px;
- }
 
 /* TERMINA INDEX 1200*/
 
